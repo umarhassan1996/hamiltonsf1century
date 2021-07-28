@@ -14,3 +14,7 @@ p{
   font-size:12px;
   font-family: 'Montserrat', sans-serif;
 }
+
+div-header {
+position:relative;
+}
