@@ -8,3 +8,9 @@ h1{
   font-size:32px;   
      
 }
+
+p{
+  align:center;
+  font-size:12px;
+  font-family: 'Montserrat', sans-serif;
+}
