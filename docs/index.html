@@ -41,6 +41,38 @@ In his 15th season in Formula One, Hamilton is tied with Germany’s Michael Sch
   
   
   <h2>SCROLLY BIT HERE!</h2>
+  
+  <div class="scrolly">
+    
+    <div class="step"> </div>
+    <div class="step"> </div>
+    <div class="step"> </div>
+    
+    <script>
+    
+      //Bring Scrollama into the webpage
+      
+      const scroller = scrollama();
+
+// setup the instance, pass callback functions
+scroller
+  .setup({
+    step: ".step",
+  })
+  .onStepEnter((response) => {
+    // { element, index, direction }
+  })
+  .onStepExit((response) => {
+    // { element, index, direction }
+  });
+
+// setup resize event
+window.addEventListener("resize", scroller.resize);
+      
+    </script>
+    
+    
+  </div>
               
               <h2> A star is born - Hamilton’s first F1 win in Canada </h2>           
               
