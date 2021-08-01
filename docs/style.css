@@ -1,13 +1,12 @@
 html ,body
-font-family:"Helvetica", sans-serif;
+font-family:"Montserrat", sans-serif;
   width: 100%;
   margin: 0 auto;
   position:relative;
 }
 
 h1 {
-font-size 30px;
-  font-family: "Helvetica", sans-serif;
+font-size 40px;
 }
 
 h4{
