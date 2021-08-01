@@ -1,15 +1,17 @@
-/* Media screen capabilities*/
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
 body{
 font-family:"Montserrat", sans-serif;
