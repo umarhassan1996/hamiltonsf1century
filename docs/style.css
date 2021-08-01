@@ -31,6 +31,7 @@ p {
 }
 
 .responsive{
+  min-width:768px;
   max-width:1350px;
   height:auto;
   margin-left:auto;
