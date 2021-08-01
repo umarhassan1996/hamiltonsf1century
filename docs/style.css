@@ -1,8 +1,4 @@
-html {
-margin:0;
-}
-
-body{
+html ,body
 font-family:"Helvetica", sans-serif;
   width: 100%;
   margin: 0 auto;
