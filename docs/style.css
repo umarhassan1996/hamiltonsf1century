@@ -21,5 +21,6 @@ font-size 30px;
   max-width:960px;
   height:auto;
   position:relative;
-  margin-right:100px;
+  margin-left:auto;
+  margin-right:auto;
 }
