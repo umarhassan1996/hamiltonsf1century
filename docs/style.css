@@ -12,7 +12,10 @@ font-family:"Montserrat", sans-serif;
 h1 {
 font-size 30px;
   font-family: "Montserrat", sans-serif;
-  float:center;
+}
+
+p {
+  text-align:center;
 }
 
 .responsive{
