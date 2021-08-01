@@ -16,4 +16,5 @@ font-size 30px;
 .responsive{
   max-width:960px;
   height:auto;
+  position:relative;
 }
