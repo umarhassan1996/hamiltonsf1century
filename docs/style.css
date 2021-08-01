@@ -3,7 +3,7 @@ margin:0;
 }
 
 body{
-font-family:"Montserrat", sans-serif;
+font-family:"Helvetica", sans-serif;
   width: 100%;
   margin: 0 auto;
   position:relative;
@@ -11,7 +11,7 @@ font-family:"Montserrat", sans-serif;
 
 h1 {
 font-size 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 p {
