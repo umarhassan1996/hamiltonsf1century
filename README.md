@@ -1,3 +1,3 @@
-# Lewis Hamilton's century of Grand Prix wins
+# Charting the rivalry between Matt Neal and Jason Plato
 
-A scrollytell story charting Lewis Hamilton's journey to becoming the first F1 driver in history to win 100 Grand Prix. This repository contains all the code and assets to create the scrollytell.
+A scrollytell, covering two long-standing rivals in the British Touring Car Championship, Matt Neal and Jason Plato on their results in the championship.
