@@ -13,23 +13,16 @@ font-family:"Montserrat", sans-serif;
 
 .author{
 position:relative;
-margin-left:auto;
-margin-right:auto;
-  margin: 0 auto;
 }
 
 .date{
 position:relative;
-margin-left:auto;
-margin-right:auto;
-  margin: 0 auto;
 }
 
 .intro__hed h1 {
 font-size 40px;
 text-align:center;
   position:block;
-  margin:auto;
 }
 
 
@@ -57,13 +50,10 @@ width:800px;
 
 .main{
 width:960px;
- margin-left:auto;
-  margin-right:auto;
   height:auto;
 }
 
 
 h4{
-margin-left:auto;
-margin-right:auto;
+
 }
