@@ -14,16 +14,13 @@ font-family:"Montserrat", sans-serif;
 .intro__hed h1 {
 font-size 40px;
 text-align:center;
-  display:block;
-  margin-left:50px;
-  margin-right:-50px;
+  position:block;
+  margin:auto;
 }
 
 
 .intro__dek p {
   display:block;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 p-copy {
