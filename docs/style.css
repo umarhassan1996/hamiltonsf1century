@@ -31,7 +31,7 @@ font-size 40px;
   position:block;
 }
 
-p{
+.nonscroll1 p{
 width:800px;
   margin-left:auto;
   margin-right:auto;
