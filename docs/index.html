@@ -92,17 +92,68 @@
     </section>
     
     <article> 
-    
+    <div class="step" data-step="1">
+      <p>Race 1</p>
+      </div>
+      <div class="step" data-step="2">
+           <p> Race 2</p>
+      </div>
+      <div class="step" data-step="3">
+           <p>Race 3</p>
+      </div>
+      <div class="step" data-step="4">
+           <p>Final race</p>
+      </div>
     </article>
     
+    <section id="outro"></section>
   </main>
   
   <!-- The scrollama.js magic should be here! -->
    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <script>
-    
-      
+    var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+      var steps = article.querySelectorAll(".step");
+
+      // initialize the scrollama
+      var scroller = scrollama();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        sticky.querySelector("p").innerText = el.dataset.step;
+      }
+
+      function init() {
+        // 2. setup the scroller passing options
+        // 		this will also initialize trigger observations
+        // 3. bind scrollama event handlers (this can be chained like below)
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.33,
+            debug: true
+          })
+          .onStepEnter(handleStepEnter);
+
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+      }
+
+      // kick things off
+      init();
   
 </body>
 </html>
