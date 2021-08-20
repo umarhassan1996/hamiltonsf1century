@@ -12,7 +12,13 @@ font-family:"Montserrat", sans-serif;
 }
 
 .author{
-position:block;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+}
+
+.date{
+position:relative;
 margin-left:auto;
 margin-right:auto;
 }
