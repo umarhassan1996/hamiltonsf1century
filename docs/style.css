@@ -36,3 +36,8 @@ font-family:"Montserrat", sans-serif;
   position:relative;  
 }
 
+.jumbotron img{
+  width:50%;
+  size:cover;
+}
+
