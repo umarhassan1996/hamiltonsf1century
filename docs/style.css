@@ -49,9 +49,15 @@ p-copy {
   margin-right:auto;
 }
 
+#intro{
+width:800px;
+   margin-left:auto;
+  margin-right:auto;
+}
+
 .main{
 width:960px;
-  margin-left:auto;
+ margin-left:auto;
   margin-right:auto;
   height:auto;
 }
