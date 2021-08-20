@@ -11,14 +11,14 @@ font-family:"Montserrat", sans-serif;
   background-color: "#D3D3D3";
 }
 
-.intro-header h1 {
+.intro__hed h1 {
 font-size 40px;
 margin-left: 20px;
   display:block;
 }
 
 
-p {
+.intro__dek p {
   display:block;
   margin-left:auto;
   margin-right:auto;
