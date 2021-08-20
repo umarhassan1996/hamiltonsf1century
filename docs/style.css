@@ -7,6 +7,9 @@ body{
 font-family:"Montserrat", sans-serif;
   width: 100%;
   margin: 0 auto;
+  margin-left:auto;
+  margin-right:auto;
+  height:auto;
   position:relative;
   background-color: "#D3D3D3";
 }
@@ -37,9 +40,7 @@ p-copy {
 
 .main{
 width:960px;
-margin-left:auto;
-margin-right:auto;
-height:auto;
+
 }
 
 
