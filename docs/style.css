@@ -7,7 +7,6 @@ body{
 font-family:"Montserrat", sans-serif;
   width: 100%;
   margin: 0 auto;
-  position:relative;
   background-color: "#D3D3D3";
 }
 
@@ -22,10 +21,6 @@ font-size 40px;
 }
 
 
-.intro__dek p {
-  display:block;
-}
-
 p-copy {
   line-height: 1.5;
 }
@@ -38,18 +33,5 @@ p-copy {
   margin-right:auto;
 }
 
-#intro{
-width:960px;
-}
-
-.main{
-width:960px;
-  
-}
 
 
-p{
-width: 960px;
-position:relative;
-
-}
