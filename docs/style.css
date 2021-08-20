@@ -31,7 +31,9 @@ font-family:"Montserrat", sans-serif;
 
 #header {
   position:block;
-  font-size:40px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:32px;
 }
 
 
