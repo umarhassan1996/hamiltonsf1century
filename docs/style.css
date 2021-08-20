@@ -15,12 +15,14 @@ font-family:"Montserrat", sans-serif;
 position:relative;
 margin-left:auto;
 margin-right:auto;
+  margin: 0 auto;
 }
 
 .date{
 position:relative;
 margin-left:auto;
 margin-right:auto;
+  margin: 0 auto;
 }
 
 .intro__hed h1 {
