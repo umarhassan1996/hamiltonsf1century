@@ -29,6 +29,10 @@ font-family:"Montserrat", sans-serif;
   margin-right:auto;
 }
 
+#header {
+  position:block;
+  font-size:40px;
+}
 
 
 
