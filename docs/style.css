@@ -31,12 +31,8 @@ font-family:"Montserrat", sans-serif;
 
 .jumbotron{
   width:800px;
-  background-size:cover;
   position:relative;  
 }
 
-.jumbotron img{
-  width:50%;
-  size:cover;
-}
+
 
