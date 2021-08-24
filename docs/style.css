@@ -1,0 +1,278 @@
+//Media sizes for viewing article
+
+@media(min-width:576px) and (max-width:960px) { ... }
+
+
+body, html{
+font-family:"Montserrat", sans-serif;
+  height: 100%;
+  background-color: "#D3D3D3";
+  margin: 0;
+}
+
+
+.responsive{
+  min-width:768px;
+  max-width:1350px;
+}
+
+#intro {
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  position:block;
+}
+
+.nonscroll p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll2 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll3 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll4 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll5 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll6 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll7 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.head h1{
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.hero{
+  height:50%;
+}
+
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/NEAPLA2012.jpg");
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  font-size:24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: inherit;
+
+}
+
+.hero-image2 {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/neal1999.jpg");
+}
+
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  font-size:24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: inherit;
+
+}
+
+.hero-image3 {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/plato1998.jpg");
+}
+
+.hero-text3 {
+  text-align: center;
+  position: absolute;
+  font-size:24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: inherit;
+}
+
+
+.hero-image4 {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/neal2006.jpg");
+}
+
+.hero-text4 {
+  text-align: center;
+  position: absolute;
+  font-size:24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: inherit;
+}
+
+.hero-image5 {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/plato2011.jpg");
+}
+
+.hero-text5 {
+  text-align: center;
+  position: absolute;
+  font-size:24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: inherit;
+}
+
+.hero-image6 {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/nealplato2004.jpg");
+}
+
+.hero-text6 {
+  text-align: center;
+  position: absolute;
+  font-size:24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: inherit;
+}
+
+
+p{
+  content: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+
+h2{
+  position: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nonscroll{
+width:800px;
+position:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.nonscroll4{
+width:800px;
+position:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.nonscroll2{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll2 p{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll3{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nonscroll3 h2{
+  width:800px;
+  position:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.footer{
+  width:800px;
+  position: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:-50px;
+}
